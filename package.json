@@ -2,6 +2,7 @@
   "name": "landing",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sir.galleto.xyz/",
   "devDependencies": {
     "react-scripts": "0.6.1"
   },
