@@ -20,8 +20,6 @@ class App extends Component {
 
     this._app.style.backgroundImage = backgroundImage;
     this._app.style.backgroundPosition = backgroundPosition;
-
-    console.log(this._app.style);
   }
 
   render() {
@@ -33,6 +31,9 @@ class App extends Component {
         <h2>
           Construction in progess
         </h2>
+        <span>
+          About me in the pacman.
+        </span>
       </div>
     );
   }
