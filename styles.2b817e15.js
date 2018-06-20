@@ -133,7 +133,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],13:[function(require,module,exports) {
+},{}],14:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -169,7 +169,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../src/images/galletoimagotype2018.svg":12,"_css_loader":13}],19:[function(require,module,exports) {
+},{"./../src/images/galletoimagotype2018.svg":12,"_css_loader":14}],19:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -198,7 +198,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49421' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49161' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
