@@ -6,7 +6,7 @@
   "dependencies": {},
   "scripts": {
     "start": "parcel public/index.html",
-    "dev": "parcel watch public/index.html", 
+    "dev": "parcel watch public/index.html",
     "build": "parcel build public/index.html",
     "upload": "git stpp build origin master",
     "deploy": "npm run build && npm run upload"
