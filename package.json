@@ -8,7 +8,7 @@
     "start": "parcel public/index.html",
     "dev": "parcel watch public/index.html",
     "build": "parcel build public/index.html",
-    "upload": "git stpp build origin master",
+    "upload": "git subtree push --prefix dist origin master",
     "deploy": "npm run build && npm run upload"
   },
   "devDependencies": {
