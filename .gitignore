@@ -4,8 +4,10 @@
 node_modules
 
 # production
-# build
 .cache
+
+# editor
+.vscode
 
 # misc
 .DS_Store
