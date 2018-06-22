@@ -1,5 +1,38 @@
 body {
   height: 100vh;
-  background: url('galletoimagotype2018.6552c9b4.svg') no-repeat center;
-  background-size: 60%;
+  background-color: #5d3ef7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 20% auto;
+  width: 60%;
+}
+
+.comming-soon {
+  color: #1b1f61;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 1.4em;
+  margin: 50px 0;
+  text-transform: uppercase;
+}
+
+nav > a {
+  color: #1b1f61;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  color: #1b1f61;
+  opacity: 0.5;
 }
