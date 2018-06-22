@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://sir.galleto.xyz/",
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0"
+  },
   "scripts": {
     "start": "parcel public/index.html",
     "dev": "parcel watch public/index.html",
