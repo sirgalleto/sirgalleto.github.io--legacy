@@ -4,7 +4,8 @@
   "private": true,
   "homepage": "https://sir.galleto.xyz/",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.1.0"
+    "@fortawesome/fontawesome-free": "^5.1.0",
+    "animate.css": "^3.6.1"
   },
   "scripts": {
     "start": "parcel public/index.html",
