@@ -48,6 +48,7 @@ aside {
   color: #20079f;
   font-size: 24px;
   margin-right: 24px;
+  text-decoration: none;
 }
 
 .social-link:hover {
