@@ -4,7 +4,6 @@ body {
   color: white;
   padding: 30px 38px 0px;
   height: calc(100vh - 30px);
-  overflow: none;
 }
 
 main {
@@ -29,6 +28,15 @@ footer {
 
 aside {
   display: none;
+  position: absolute;
+  background-image: url('street-art.b9bfd9a2.JPG');
+  background-position: center; 
+  background-size: auto 100vh;
+  height: 100vh;
+  width: 43.26vw;
+  top: 0;
+  right: 0;
+  transform: scaleX(-1);
 }
 
 .logo {
@@ -44,6 +52,20 @@ aside {
 
 .social-link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width:900px) and (orientation:landscape) {
+  main {
+    margin-top: 12vh;
+  }
+
+  p {
+    font-size: 40px !important;
+  }
+
+  aside {
+    display: block !important;
+  }
 }
 
 @media screen and (min-width: 500px) {
@@ -69,13 +91,5 @@ aside {
 @media screen and (min-width: 1440px) {
   aside {
     display: block;
-    position: absolute;
-    background-image: url('street-art.b9bfd9a2.JPG');
-    background-position: center; 
-    height: 100vh;
-    width: 43.26vw;
-    top: 0;
-    right: 0;
-    transform: scaleX(-1);
   }
 }
