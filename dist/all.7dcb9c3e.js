@@ -169,7 +169,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../webfonts/fa-brands-400.eot":13,"./../webfonts/fa-brands-400.woff2":14,"./../webfonts/fa-brands-400.woff":15,"./../webfonts/fa-brands-400.ttf":16,"./../webfonts/fa-brands-400.svg":17,"./../webfonts/fa-regular-400.eot":21,"./../webfonts/fa-regular-400.woff2":22,"./../webfonts/fa-regular-400.woff":23,"./../webfonts/fa-regular-400.ttf":24,"./../webfonts/fa-regular-400.svg":25,"./../webfonts/fa-solid-900.eot":26,"./../webfonts/fa-solid-900.woff2":27,"./../webfonts/fa-solid-900.woff":28,"./../webfonts/fa-solid-900.ttf":29,"./../webfonts/fa-solid-900.svg":30,"_css_loader":17}],26:[function(require,module,exports) {
+},{"./../webfonts/fa-brands-400.eot":13,"./../webfonts/fa-brands-400.woff2":14,"./../webfonts/fa-brands-400.woff":15,"./../webfonts/fa-brands-400.ttf":16,"./../webfonts/fa-brands-400.svg":17,"./../webfonts/fa-regular-400.eot":21,"./../webfonts/fa-regular-400.woff2":22,"./../webfonts/fa-regular-400.woff":23,"./../webfonts/fa-regular-400.ttf":24,"./../webfonts/fa-regular-400.svg":25,"./../webfonts/fa-solid-900.eot":26,"./../webfonts/fa-solid-900.woff2":27,"./../webfonts/fa-solid-900.woff":28,"./../webfonts/fa-solid-900.ttf":29,"./../webfonts/fa-solid-900.svg":30,"_css_loader":17}],42:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -339,7 +339,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}],19:[function(require,module,exports) {
+},{}],44:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -417,5 +417,5 @@ LazyPromise.prototype.catch = function (onError) {
   return this.promise.catch(onError);
 };
 },{"./bundle-url":21}],0:[function(require,module,exports) {
-var b=require(19);b.load([["fa-brands-400.c9a2d2cb.eot",13],["fa-brands-400.cf4f6b24.woff2",14],["fa-brands-400.f18dccde.woff",15],["fa-brands-400.81ba8cc5.ttf",16],["fa-brands-400.2ec2e84c.svg",17],["fa-regular-400.ac8aa836.eot",21],["fa-regular-400.1e70e763.woff2",22],["fa-regular-400.da4e5993.woff",23],["fa-regular-400.4e3b23a7.ttf",24],["fa-regular-400.2bfbebb6.svg",25],["fa-solid-900.0ab3279a.eot",26],["fa-solid-900.81d0ec90.woff2",27],["fa-solid-900.1052b36a.woff",28],["fa-solid-900.b946bc71.ttf",29],["fa-solid-900.9468cc20.svg",30]]);
-},{}]},{},[26,0], null)
+var b=require(44);b.load([["fa-brands-400.c9a2d2cb.eot",13],["fa-brands-400.cf4f6b24.woff2",14],["fa-brands-400.f18dccde.woff",15],["fa-brands-400.81ba8cc5.ttf",16],["fa-brands-400.2ec2e84c.svg",17],["fa-regular-400.ac8aa836.eot",21],["fa-regular-400.1e70e763.woff2",22],["fa-regular-400.da4e5993.woff",23],["fa-regular-400.4e3b23a7.ttf",24],["fa-regular-400.2bfbebb6.svg",25],["fa-solid-900.0ab3279a.eot",26],["fa-solid-900.81d0ec90.woff2",27],["fa-solid-900.1052b36a.woff",28],["fa-solid-900.b946bc71.ttf",29],["fa-solid-900.9468cc20.svg",30]]);
+},{}]},{},[42,0], null)
