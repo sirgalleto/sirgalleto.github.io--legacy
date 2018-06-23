@@ -11,7 +11,7 @@
     "start": "parcel public/index.html",
     "dev": "parcel watch public/index.html",
     "build": "parcel build public/index.html",
-    "upload": "git add dist/* && git commit -m \"build $(date +%s)\" && git subtree push --prefix dist origin master",
+    "upload": "git add dist/*; git commit -m \"build $(date +%s)\";  git subtree push --prefix dist origin master",
     "deploy": "npm run build && npm run upload"
   },
   "devDependencies": {
