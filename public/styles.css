@@ -29,7 +29,7 @@ footer {
 aside {
   display: none;
   position: absolute;
-  background-image: url('../src/images/street-art.JPG');
+  background-image: url('../src/images/street-art.jpg');
   background-position: center; 
   background-size: auto 100vh;
   height: 100vh;
