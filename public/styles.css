@@ -1,38 +1,81 @@
 body {
-  height: 100vh;
   background-color: #5d3ef7;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
+  font-family: 'PT Sans';
+  color: white;
+  padding: 30px 38px 0px;
+  height: calc(100vh - 30px);
+  overflow: none;
 }
 
 main {
-  text-align: center;
+  margin-top: 27.46vh;
+}
+
+p {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+small {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  position: absolute;
+  bottom: 25px;
+  left: 38px;
+}
+
+aside {
+  display: none;
 }
 
 .logo {
-  display: block;
-  margin: 20% auto;
-  width: 60%;
+  width: 154px;
+  height: 41px;
 }
 
-.coming-soon {
-  color: #1b1f61;
-  font-family: 'PT Sans';
-  font-weight: 400;
-  font-size: 1.4em;
-  margin: 50px 0;
-  text-transform: uppercase;
+.social-link {
+  color: #20079f;
+  font-size: 24px;
+  margin-right: 24px;
 }
 
-nav > a {
-  color: #1b1f61;
-  margin: 0 15px;
-  text-decoration: none;
+.social-link:hover {
+  opacity: 0.8;
 }
 
-nav > a:hover {
-  color: #1b1f61;
-  opacity: 0.5;
+@media screen and (min-width: 500px) {
+  p {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    padding-left: 80px;
+  }
+
+  p {
+    font-size: 80px;
+  }
+
+  footer {
+    left: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  aside {
+    display: block;
+    position: absolute;
+    background-image: url('../src/images/street-art.JPG');
+    background-position: center; 
+    height: 100vh;
+    width: 43.26vw;
+    top: 0;
+    right: 0;
+    transform: scaleX(-1);
+  }
 }
