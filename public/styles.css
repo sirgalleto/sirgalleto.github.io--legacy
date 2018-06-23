@@ -4,7 +4,6 @@ body {
   color: white;
   padding: 30px 38px 0px;
   height: calc(100vh - 30px);
-  overflow: none;
 }
 
 main {
